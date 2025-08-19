@@ -45,7 +45,8 @@ function App() {
       },
       (error) => {
         setloading(false)
-        alert(error?.message || 'an error occured,try again later')
+        // alert(error?.message || 'an error occured,try again later')
+        alert('network error, please try again later');        
       },
       () => {
         // Upload completed successfully, now we can get the download URL
@@ -54,7 +55,9 @@ function App() {
           getPest(downloadURL)
         }).catch(error => {
           setloading(false)
-          alert(error?.message || 'an error occured,try again later')
+          // alert(error?.message || 'an error occured,try again later')
+        alert('network error, please try again later');
+          
         })
       }
     );

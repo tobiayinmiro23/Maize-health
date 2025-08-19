@@ -5,7 +5,8 @@ const Card = ({ pestData }) => {
     const [detectedPest, setdetectedPest] = useState('')
     const [healthy, sethealthy] = useState(false)
     const [message, setmessage] = useState('')
-    let blight = ["Proline", "Sphere Max", "Quilt", "Priaxor", "Dithane", "Prothioconazole", "Tebuconazole", "Manzate", "Azoxystrobin", "Pyraclostrobin"];
+    let blight = ["Proline", "Sphere Max", "Quilt", "Priaxor", "Dithane", "Prothioconazole", "Manzate","Azoxystrobin", "Pyraclostrobin", "Trifloxystrobin", "Propiconazole", "Tebuconazole", "Cyproconazole", "Flutriafol", "Mancozeb", "Chlorothalonil", "Zineb"]
+    //["Proline", "Sphere Max", "Quilt", "Priaxor", "Dithane", "Prothioconazole", "Tebuconazole", "Manzate", "Azoxystrobin", "Pyraclostrobin"];
     let grey_leaf_spot = ["Sercadis", "Solatenol", "Amistar", "Priaxor", "Echo", "Prothioconazole", "Difenoconazole", "Tebuconazole", "Trifloxystrobin", "Azoxystrobin"];
     let common_rust = ["Folicur", "Tebuzol", "Orius", "Tilt", "Bumper", "Score", "Divident", "Rally", "Amistar", "Heritage", "Headline", "Flint", "Opera", "Tebuconazole", "Propiconazole", "Difenoconazole"];
 
@@ -55,5 +56,6 @@ const Card = ({ pestData }) => {
         </div>
     )
 }
+
 
 export default Card

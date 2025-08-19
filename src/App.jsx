@@ -26,7 +26,8 @@ function App() {
       .catch(error => {
         console.log(error);
         setloading(false)
-        alert(error.message);
+        // alert(error.message);
+        alert('network error, please try again later');
       });
   }
   //uploads image to firebase get the image link and analyze it fiir pests

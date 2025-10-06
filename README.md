@@ -1,1 +1,1 @@
-This repo is a part of my fina year project, it is a pesticide recomendation system tbat uses AI to scan a maize leaf for pest, detect the pest and recommend a suitable pesticide, it was built using react, vite and firebase
+This repo is a part of my fina year project, it is a pesticide recomendation system that uses AI to scan a maize leaf for pest, detect the pest and recommend a suitable pesticide, it was built using react, vite and firebase
